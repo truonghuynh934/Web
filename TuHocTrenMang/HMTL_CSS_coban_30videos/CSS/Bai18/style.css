@@ -1,0 +1,11 @@
+﻿body{
+	background-image:url(anh.jpg);
+}
+
+#ten{
+	width:300px;
+	height:200px;
+	background-color:red;
+	border-radius: 50px;
+	opacity: 0.2;
+}

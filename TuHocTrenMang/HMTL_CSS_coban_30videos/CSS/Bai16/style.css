@@ -1,0 +1,18 @@
+﻿#ten{
+	height: 200px;
+	width: 200px;
+	background-color: 00ff00;
+	margin: auto; /*ra giữa màn hình*/	
+
+	/* 3 dòng code bên dưới để hỗ trợ tạo hiện ứng ở #ten:hover*/
+			transition: all ls;
+		-moz-transition: all ls;
+	-webkit-transition: all ls;
+}
+#ten:hover{
+	/*transform: rotate(1000deg); làm thẻ div xoay tròn khi rê chuột vài*/
+	/*transform: scale(2); khi rê chuột vào thẻ div sẽ phóng to ra, số 2 là gấp 2*/
+	/*transform: scalex(2); phóng to theo x*/
+	/*transform: scaley(2);  phóng to theo y*/
+	transform: translate(-35px); /*làm thẻ div di chuyển được, số âm di chuyển theo hướng ngược lại*/
+}

@@ -1,0 +1,17 @@
+﻿#bocuc{
+	height: 500px;
+	background-color: 00ff00;
+	margin: auto;
+}
+#bocuc ul li{
+	list-style: none;
+	float: left;
+	background-color: red;
+	color: white;
+	padding: 10px 40px;
+	border-right: 1px dotted #000000;
+}
+#bocuc ul li:hover{
+	background-color: blue;
+	color: 000000;
+}

@@ -1,0 +1,33 @@
+﻿#ten{
+}
+#ten ul{
+	background-color: 00ff00;
+	width: 150px;
+	list-style-type: none;
+	padding: 0px;
+}
+#ten ul li{
+	background-color: red;
+	height: 30px;
+	border-bottom: 1px solid #000000;
+	line-height: 30px;
+	padding: 10px; /* chọn height cũng được nhưng dùng padding cân đối hơn*/
+	position: relative;
+}
+#ten ul li a{
+	text-decoration: none; /*làm mất dấu gạch chân*/
+	color: ffffff;
+	display: block;
+}
+#ten ul li:hover{
+	background-color: blue;
+}
+#con{
+	margin-left: 140px;
+	margin-top: -40px; /* cách từ trên xuống dưới, số âm thì ngược lại */	
+	position: absolute;
+	display: none;
+}
+#ten ul li:hover #con{
+	display: block;
+}

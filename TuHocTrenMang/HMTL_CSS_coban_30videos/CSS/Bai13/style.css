@@ -1,0 +1,36 @@
+﻿*{
+	margin: 0px;
+}
+#ten{
+	height: 100px;
+	background-color: 00ff00;
+	margin: auto; /*cho ra giữa màn hình mặc dù nó đã ra giữa*/
+}
+#ten ul {
+	list-style-type: none; /*làm các danh sách mất đi dấu chấm*/
+}
+#ten ul li{
+	float: left;
+	width: 160px;
+	height: 40px;
+	background-color: red;
+	border-right: 1px solid #000000;
+	line-height: 40px;
+	position: relative;
+}
+#ten ul li a{
+	color: ffffff;
+	text-decoration: none; /*xóa dấu gạch chân*/
+	display: block;
+}
+#ten ul li:hover{
+	background-color: blue;
+}
+#con{
+	margin-left: -40px;
+	position: absolute;
+	display: none;
+}
+#ten ul li:hover #con{
+	display: block;
+}

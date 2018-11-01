@@ -1,0 +1,10 @@
+﻿a{
+	text-decoration: none;
+	background-color: 00ff00;
+	color: ffffff;
+}
+a:hover{
+	background-color: 000000;
+	color: blue;
+	transition: all 6.00s
+}

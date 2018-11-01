@@ -1,0 +1,11 @@
+﻿#ten{
+	width: 200px;
+	height: 200px;
+	transition: all ls;
+	-moz-transition: all ls;
+	-webkit-transitioin: all ls;
+}
+
+#ten:hover{
+	transform: translate(-35px);
+}

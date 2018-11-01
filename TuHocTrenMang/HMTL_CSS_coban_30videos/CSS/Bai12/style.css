@@ -1,0 +1,19 @@
+﻿#ten{
+	height:630px;
+	width: 200px;
+	background-color: 00ff00;
+}
+#ten ul li{
+	list-style: none;  /*Làm các danh sách mất đi dấu chấm*/
+	background-color: red;
+	color: ffffff;
+	margin-left: -40px;
+	height: 78px;
+	width: 100px;
+	border-top: 1px solid #000000;
+	line-height: 78px;
+}
+#ten ul li:hover{
+	background-color: blue;
+	color: 000000;
+}
