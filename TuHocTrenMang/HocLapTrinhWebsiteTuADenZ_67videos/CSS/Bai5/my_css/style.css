@@ -1,0 +1,32 @@
+@charset "utf-8";
+body{
+	background-image:url('./he-mat-troi.jpg');
+	background-repeat:no-repeat;
+	background-position:50px 50px;
+}
+#div1{
+	width:700px;
+	height:5000px;	
+	position:relative; /*chỉ định nó là 1 viewbox*/ 
+	left:100px;
+	top:100px;
+	z-index:10;
+}
+#div2{
+	width:200px;
+	height:500px;
+	background-color:#0C0;
+	position:absolute;
+	left:180px;
+	top:150px;
+	z-index:6;
+}
+#div3{
+	width:200px;
+	height:200px;
+	background-color:#F00;
+	position:fixed;
+	left:300px;
+	top:100px;
+	z-index:1000;
+}
