@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* CSS Document */
+body{
+	margin:0;
+}
+/*
+#div1{
+	background-color:#60C;
+	width:200px;
+	height:200px; */
+/*	position:absolute; */ /* để biến nó thành một cái viewbox */
+/*	z-index:1;
+	
+	top:50px;
+	left:50px;
+} 
+
+#div2{
+	background-color:#060;
+	width:200px;
+	height:200px;
+	position:absolute;
+	z-index:1;
+	
+	top:80px;
+	left:80px;
+	opacity:0.2;
+} */
+
+p span{
+	font-weight:bold;
+	padding:10px;
+	background-color:#0F0;
+	display:inline-block; /*chiếm trọn 1 line */
+}
+

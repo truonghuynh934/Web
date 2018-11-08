@@ -1,12 +1,23 @@
 @charset "utf-8";
 body{
-	background-image:url('./he-mat-troi.jpg');
-	background-repeat:no-repeat;
-	background-position:50px 50px;
+	
+	background-color:#0C3; 
+	background-image:url('./he-mat-troi.jpg'); 
+/*	background-repeat:no-repeat; */
+/*	background-position:50px 50px;*/
+/*	background-origin:padding-box; */
+	background-size:cover; 
+
+/*  dùng ShortHand */
+/*	background:#0F0 url('./he-mat-troi.jpg') repeat-x left top; */
+/*	background:#0F0 url('./he-mat-troi.jpg') no-repeat 10px 50px; */
+
+/*	dùng ảnh chồng chéo*/
+/*	background: url('./he-mat-troi.jpg') no-repeat left top, url('./he-mat-troi.jpg') no-repeat bottom right;*/
 }
 #div1{
 	width:700px;
-	height:5000px;	
+	height:500px;	
 	position:relative; /*chỉ định nó là 1 viewbox*/ 
 	left:100px;
 	top:100px;

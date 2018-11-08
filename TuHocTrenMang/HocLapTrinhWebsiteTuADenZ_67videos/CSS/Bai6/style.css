@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+#my_border{
+	width: 300px;
+	height:200px;
+	background-color:#0F0;
+	
+	border:8px solid #F00;
+	border-right-color:#60C;
+
+	border-radius:10px 20px 30px 40px;
+}
+
+#hinhtron{
+	width:200px;
+	height:200px;
+	background-color:#F0F;
+		
+	border: 8px solid #F00;
+	border-right-color:#60F;
+	
+	border-radius:200px;
+}

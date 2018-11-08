@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+}
+#div1{
+	background-color:#033;
+	width:200px;
+	height:200px;
+	
+/*	margin-top: 100px;*/
+	margin-bottom:50px;
+
+	color:#FFF; /* màu cho chữ */
+	
+	padding-top:50px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:50px;
+}
+
+#div2{
+	background-color:#60C;
+	width:200px;
+	height:200px;
+	
+	margin-top: 50px;
+	
+	color:#FFF;
+}
