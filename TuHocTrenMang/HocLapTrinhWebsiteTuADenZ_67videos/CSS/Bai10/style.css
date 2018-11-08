@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+body{
+	margin:20px;
+}*/
+
+#img1{
+	width:70px;
+	vertical-align:text-top;
+}
+
+#img2{
+	width:70px;
+	vertical-align:middle;
+}
+
+#img3{
+	width:70px;
+	vertical-align:text-bottom;
+}
+
+#p1{
+	text-align:left;
+/*	text-indent:50px;
+	letter-spacing:5px;*/
+	font-size:20px;
+	line-height:30px;
+/*	word-spacing:20px; */
+	text-shadow:1px 1px 5px #009;
+	color:#FF0;
+	
+	border:2px solid #000;
+	width:300px;
+	height:50px;
+	
+	/*tạo ba chấm khi văn bản bị tràn ra khung*/
+	overflow:hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+}
+
+#vietnguoc{
+	text-align:left;
+	font-size:20px;
+	line-height: 30px;
+	
+	text-shadow:1px 1px 5px #009;
+	color: #FF0;
+	
+	direction:rtl;
+	unicode-bidi:bidi-override;
+}
