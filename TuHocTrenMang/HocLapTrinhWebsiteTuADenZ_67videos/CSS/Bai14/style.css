@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:30px;
+}
+
+/* transition */
+#vidu_transition{
+	width:100px;
+	height:100px;
+	background-color:#0F0;
+	transition:1s; /* nếu không có thì nó chuyển động rất nhanh, nhìn ko mượt */
+}
+
+#vidu_transition:hover{
+	width:200px;
+	height:200px;
+}
+
+/* Transform: translate */
+#vidu_transform_translate{
+	width:100px;
+	height:100px;
+	background-color:#00F;
+	transition: 1s
+}
+
+#vidu_transform_translate:hover{
+	transform:translate(100px,50px);
+}
+
+/* Transform: rotate */
+#vidu_transform_rotate{
+	width:100px;
+	height:100px;
+	background:#F00;
+	transition:1s
+}
+
+#vidu_transform_rotate:hover{
+	transform:rotate(45deg);
+}
+
+/* Transform: scale */
+#vidu_transform_scale{
+	width:100px;
+	height:100px;
+	background:#F0F;
+	transition:1s
+}
+
+#vidu_transform_scale:hover{
+	transform:scaleX(2) scaleY(0.5);
+}
+
+/* Transform: skewX */
+#vidu_transform_skewx{
+	width:100px;
+	height:100px;
+	background:#FF0;
+	transition:1s
+}
+
+#vidu_transform_skewx:hover{
+	transform:skewX(20deg) skewY(30deg);
+}
+
+/* Transform: rorate3D */
+#vidu_transform_rotate3D{
+	width:100px;
+	height:100px;
+	background:#0FC;
+	transition:1s
+}
+
+#vidu_transform_rotate3D:hover{
+	transform:rotateX(45deg) rotateY(30deg) rotateZ(20deg);
+}
+
+/* Transform: rorate3D shorthand */
+#vidu_transform_rotate_shorthand{
+	width:100px;
+	height:100px;
+	background:#C0C;
+	transition:1s
+}
+
+#vidu_transform_rotate_shorthand:hover{
+	transform:rotate3D(1,0,1,45deg);
+}
+

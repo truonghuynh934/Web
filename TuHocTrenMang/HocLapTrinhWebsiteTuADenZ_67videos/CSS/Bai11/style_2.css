@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+input:valid{
+	border:2px solid #0F0;
+}
+
+input:invalid{
+	border: 2px solid #F00;
+}
+
+input:disabled{
+	background-color:#F0F;
+}
+
+input:read-only{
+	background-color: #FF0;
+}
+

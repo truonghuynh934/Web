@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+a:link, a:active, a:visited{
+	color: #C63;
+	font-size:20px;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#0F0;
+}
+
+.vidu{
+	width:250px;
+	padding: 5px;
+	border: 1px solid #0F3; /* xanh lá */
+}
+
+.vidu:hover{
+	border: 1px solid #F00; /* đỏ */
+}
+
+.vidu:focus{
+	border:1px solid #00F; /*xanh dương */
+}
