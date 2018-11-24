@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:20px;
+}
+
+#div1{
+	width:200px;
+	height:100px;
+	background-color:#3C9;
+}
+
+#div2{
+	width:200px;
+	height:100px;
+	background-color:#F00;
+}
