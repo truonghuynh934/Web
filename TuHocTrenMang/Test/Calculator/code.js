@@ -1,18 +1,13 @@
 
-var obj_CE = document.getElementById('btnCE');
-var obj_so = document.getElementByClassName('btnSo');
+var obj_CE = document.getElementById('btnCe');
+//var obj_so = document.getElementByClassName('btnSo');
 
 function CE_Click(){
-	obj_CE.setAttribute('value','0');
-}
+//	obj_CE.setAttribute('value','0');
+	alert('hello');
+}	
 
-function So_Click(){
-	obj_CE.setAttribute('value','1');
-}
+// function DauBang_Clicked(){
 
-function DauBang_Clicked(){
-
-}
-
-obj_CE.onClick = CE_Click();
-obj_so.onClick = So_Click();
+// }
+obj_CE.onClick = CE_Click;
