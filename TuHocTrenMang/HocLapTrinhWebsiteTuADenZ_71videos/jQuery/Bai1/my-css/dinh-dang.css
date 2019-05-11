@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+#hinh{
+	width:800px;
+}*/
+#hinh.w1{
+	width:800px;
+}
+#hinh.w2{
+	width:1200px;
+}
+#hinh.w3{
+	width:1500px;
+}
+
+#btbChangeImage{
+	margin:10px;
+	padding:10px;
+	width:80px;
+	text-align:center;
+	border:1px solid #ccc;
+	cursor:pointer;
+}
+

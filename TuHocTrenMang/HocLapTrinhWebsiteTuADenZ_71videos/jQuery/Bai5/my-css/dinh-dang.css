@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+.btbClick{
+	margin:20px 0px 20px 20px;
+	padding:10px 15px;
+	width:150px;
+	float: left;
+	text-align:center;
+	background:#333333;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+.btbClick:hover{
+	background:#000000;
+}
+img{
+	width:350px;
+	clear:both; /*muốn cho xuống hàng phải hủy hiệu ứng load của 3 cái thẻ div trên*/
+	height:500px;
+}
