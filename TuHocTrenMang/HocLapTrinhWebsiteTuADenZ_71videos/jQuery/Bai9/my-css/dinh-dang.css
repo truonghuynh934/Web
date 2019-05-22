@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+#my-prb-label{
+	position:absolute;
+	top:18px;
+	left:0px;
+	width:100%;
+	text-align:center;
+}
