@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width:device-width,initial-scale:1" />
+		<title>Đây là tiêu đề</title>
+        <link rel="stylesheet" type="text/css" href="./my-css/dinh-dang.css" />
+        <script type="text/javascript" src="./my-javascript/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="./my-javascript/code.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="./my-javascript/jquery-ui/jquery-ui.css" />
+        <script type="text/javascript" src="./my-javascript/jquery-ui/jquery-ui.js"></script>
+	</head>
+
+	<body>
+    	<a id="my-tooltip" title="Bạn click ở đây thì Progressbar sẽ chạy" href="javascript:StartProgressbar()">BẮT ĐẦU</a>
+        <br />
+        <div id="my-prb">
+        	<p id="my-prb-label">
+            	Đang chờ bắt đầu
+            </p>
+        </div>
+        
+        <hr />
+        
+        <p>Sinh nhật của bạn?</p>
+        <input type="text" id="birthday" style="width:150px;" />
+        
+        <div id="my-accordion" style="width:200px">
+        	<h1>Tab thứ 1</h1>
+            <div>Nội dung thứ 1</div>
+            <h1>Tab thứ 2</h1>
+            <div>Nội dung thứ 2</div>
+        	<h1>Tab thứ 3</h1>
+            <div>Nội dung thứ 3</div>            
+        </div>
+        
+        <br />
+        <input type="text" id="my-autocomplete" />
+        
+        <br />
+        
+        <ul id="my-menu" style="width:200px">
+        	<li>
+            	<div>Menu A</div>
+            	<ul>
+                	<li>
+                    	<div>A1</div>
+                        <ul>
+                        	<li>
+                            	<div>A 1 1</div>
+                            </li>
+                        	<li>
+                            	<div>A 1 2</div>
+                            </li>                            
+                        </ul>
+                    </li>
+                    <li>
+                    	<div>A2</div>
+                    </li>
+                </ul>
+            </li>
+            <li class="ui-state-disabled">
+            	<div>Menu B</div>
+            </li>
+            <li>
+            	<div>Menu C</div>
+            </li>
+        </ul>
+        
+        <br /> <br />
+        
+        <div id="myTabs" style="width:500px">
+        	<ul>
+            	<li><a href="#tab_1">Giới thiệu</a></li>
+            	<li><a href="#tab_2">Nội dung sơ lược</a></li>                
+            	<li><a href="#tab_3">Liên hệ chi tiết</a></li>                
+            </ul>
+            <div id="tab_1"><p>Nội dung phần giới thiệu</p></div>
+            <div id="tab_2"><p>Nội dung phần nội dung sơ lược</p></div>
+            <div id="tab_3"><p>Nội dung phần liên hệ chi tiết</p></div>      
+        </div>
+        
+        <br />  <br />
+        SPINNER: <input type="text" id="mySpinner" value="0" style="width:250px" /> 
+        <br />
+        Giá trị hiện tại: <label id="SpinnerValue">0</label>
+        
+        <br /> <br />
+        <div id="mySlider" style="width:250px"></div> <label id="SliderValue1"></label>
+        <br />
+        <div id="mySlider2" style="height:150px"></div> <label id="SliderValue2"></label>     
+	</body>
+</html>

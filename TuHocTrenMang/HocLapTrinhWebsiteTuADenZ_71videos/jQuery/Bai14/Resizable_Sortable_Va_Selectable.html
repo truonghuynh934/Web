@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+        <meta name="viewport" content="width:device-width,initial-scale:1" />
+		<title>Đây là tiêu đề</title>
+        <link rel="stylesheet" type="text/css" href="./my-css/dinh-dang.css" />
+        <script type="text/javascript" src="./my-javascript/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="./my-javascript/code.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="./my-javascript/jquery-ui/jquery-ui.css" />
+        <script type="text/javascript" src="./my-javascript/jquery-ui/jquery-ui.js"></script>
+	</head>
+
+	<body style="padding:50px">             
+    	<!-- RESIZABLE --> 
+    	<div id="Resizable_1" style="border:1px solid #ccc; width:250px; height:100px;">
+        	A
+        </div>
+    	<div id="Resizable_2" style="border:1px solid #ccc; width:250px; height:100px; margin-top:20px; background-color:#F00">
+        	B
+        </div>        
+        
+        <br /> <br />
+        <!-- SORTABLE -->
+        <!--
+        <style>
+			.MyConnect{
+				margin:100px 0px 0px 50px;
+				float:left;
+			}
+			li{
+				margin:10px 0px 0px 0px;
+				padding:10px;
+				width:100px;
+				border:1px solid #ccc;
+				display:block;
+				text-align:center;
+			}
+		</style>
+        <ul id="MySortable" class="MyConnect">
+        	<li>A-1</li>
+            <li>A-2</li>
+            <li>A-3</li>
+        </ul>
+		<ul id="MySortable2" class="MyConnect">
+        	<li>B-1</li>
+            <li>B-2</li>
+            <li>B-3</li>
+        </ul>
+        -->
+        
+        <!-- SELECTABLE -->
+        <style>
+			.MyConnect{
+				margin:100px 0px 0px 50px;
+				float:left;
+			}
+			li{
+				margin:10px 0px 0px 0px;
+				padding:10px;
+				width:100px;
+				border:1px solid #ccc;
+				display:block;
+				text-align:center;
+			}
+			.ui-selecting{background-color:#808080}
+			.ui-selected{background-color:#000000;color:#fff;}
+		</style>
+		<ul id="List1" class="MyConnect">
+        	<li data="1" class="B">A-1</li>
+            <li data="2" class="A">A-2</li>
+            <li data="3" class="A">A-3</li>
+        </ul>
+	</body>
+</html>
